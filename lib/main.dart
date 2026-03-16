@@ -72,6 +72,11 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
 
           children: <Widget>[
+            Image.asset(
+              "assets/images/fortune_cookie.png",
+              width: 200,
+              height: 200,
+            ),
             Text(
               "Your fortune is:",
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
